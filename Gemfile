@@ -12,6 +12,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
 gem 'bower-rails'
+gem 'foreman'
+
+group :production, :staging do
+  gem 'rails_12factor'
+  gem 'rails_stdout_logging'
+  gem 'rails_serve_static_assets'
+end
 
 gem 'sass', '3.2.19'
 group :test, :development do
