@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bower-rails'
 gem 'foreman'
+gem 'angular-rails-templates'
 
 group :production, :staging do
   gem 'rails_12factor'
